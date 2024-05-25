@@ -9,14 +9,14 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to right, #f1f1f1, #ffffff); /* Gradient background */
+            background: #f5f5f5; /* Light grey background */
+            color: #333; /* Dark grey text color */
             text-align: center;
         }
         header {
             background-color: #333;
             color: #fff;
             padding: 20px 0;
-            margin-bottom: 30px;
         }
         h1 {
             margin: 0;
@@ -25,34 +25,38 @@
         section {
             padding: 20px;
             text-align: left;
-            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin: 0 auto 30px;
+            margin: 20px auto;
             max-width: 800px; /* Center content and set max width */
         }
         footer {
             background-color: #333;
             color: #fff;
-            padding: 20px 0;
+            padding: 10px 0;
             position: fixed;
             bottom: 0;
             width: 100%;
             text-align: center;
         }
-        .contact-icons {
-            font-size: 24px;
+        .contact-info {
+            font-size: 18px;
             margin-top: 20px;
         }
-        .icon {
-            width: 24px;
-            height: 24px;
-            vertical-align: middle;
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
             margin-right: 10px;
         }
-        .icon-email svg,
-        .icon-instagram svg {
-            fill: #333;
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .icon {
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+            margin-right: 5px;
         }
     </style>
 </head>
@@ -65,19 +69,21 @@
         <p>We provide teaching services in Kannada for AWS, DevOps, Linux, Power BI, and other tools.</p>
         <p>Stay tuned for more updates on interview questions and projects! 🚀</p>
         <p>Feel free to reach out to us:</p>
-        <p class="contact-icons">
-            <span class="icon icon-email">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm0-12c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4z"/>
+        <p class="contact-info">
+            <span class="icon-email">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 12.713l11.985-7.059c-.273-.323-.56-.635-.855-.935h-22.26c-.294.3-.581.612-.855.935l11.985 7.059zm0 2.287l-11.985-7.06v12.06h23.97v-12.06l-11.985 7.06z"/>
                 </svg>
+                techkannadiga983@gmail.com
             </span>
-            techkannadiga983@gmail.com <br>
-            <span class="icon icon-instagram">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zM17.16 7H6.84c-.58 0-1.05.47-1.05 1.05v9.8c0 .58.47 1.05 1.05 1.05h10.32c.58 0 1.05-.47 1.05-1.05v-9.8c0-.58-.47-1.05-1.05-1.05zm-5.16 8c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm3.09-5.57c.17-.42.26-.88.26-1.43 0-1.96-1.59-3.55-3.55-3.55s-3.55 1.59-3.55 3.55c0 .55.09 1.01.26 1.43H5.84v-4.66c0-.29.23-.52.52-.52h12.28c.29 0 .52.23.52.52v4.66h-1.91z"/>
+            <br>
+            <span class="icon-instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.322 3.608 1.297.976.975 1.235 2.242 1.297 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.322 2.633-1.297 3.608-.975.976-2.242 1.235-3.608 1.297-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.322-3.608-1.297-.976-.975-1.235-2.242-1.297-3.608-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.062-1.366.322-2.633 1.297-3.608.975-.976 2.242-1.235 3.608-1.297 1.266-.058 1.646-.07 4.85-.07zm0-2.163c-3.259 0-3.667.013-4.947.072-1.405.064-2.678.35-3.741 1.413-1.063 1.063-1.349 2.336-1.413 3.741-.059 1.28-.072 1.688-.072 4.947s.013 3.667.072 4.947c.064 1.405.35 2.678 1.413 3.741 1.063 1.063 2.336 1.349 3.741 1.413 1.28.059 1.688.072 4.947.072s3.667-.013 4.947-.072c1.405-.064 2.678-.35 3.741-1.413 1.063-1.063 1.349-2.336 1.413-3.741.059-1.28.072-1.688.072-4.947s-.013-3.667-.072-4.947c-.064-1.405-.35-2.678-1.413-3.741-1.063-1.063-2.336-1.349-3.741-1.413-1.28-.059-1.688-.072-4.947-.072z"/>
+                    <path d="M12 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.441s.645 1.441 1.441 1.441 1.441-.645 1.441-1.441-.645-1.441-1.441-1.441z"/>
                 </svg>
+                <a href="https://instagram.com/techinkannada1923" target="_blank">@techinkannada1923</a>
             </span>
-            <a href="https://instagram.com/techinkannada1923" target="_blank">@techinkannada1923</a>
         </p>
     </section>
     <footer>

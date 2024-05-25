@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: #f5f5f5; /* Light grey background */
+            background: url('https://www.transparenttextures.com/patterns/diagmonds-light.png'), #f5f5f5; /* Light grey background with tech pattern */
             color: #333; /* Dark grey text color */
             text-align: center;
         }
@@ -58,6 +58,15 @@
             vertical-align: middle;
             margin-right: 5px;
         }
+        ul {
+            list-style-type: none; /* Remove default bullet points */
+            padding-left: 0;
+        }
+        ul li::before {
+            content: '✔️';
+            margin-right: 8px;
+            color: green;
+        }
     </style>
 </head>
 <body>
@@ -66,9 +75,59 @@
     </header>
     <section>
         <h2>About Us</h2>
-        <p>We provide teaching services in Kannada for AWS, DevOps, Linux, Power BI, and other tools.</p>
-        <p>Stay tuned for more updates on interview questions and projects! 🚀</p>
-        <p>Feel free to reach out to us:</p>
+        <p>We are dedicated to providing comprehensive tech education in Kannada. Our aim is to make technology accessible to everyone by teaching in the local language.</p>
+        
+        <h3>Our Services</h3>
+        <ul>
+            <li><strong>AWS</strong>
+                <ul>
+                    <li>Introduction to AWS Cloud</li>
+                    <li>EC2 and S3 Basics</li>
+                    <li>Networking and VPC</li>
+                    <li>Database Services</li>
+                    <li>Security Best Practices</li>
+                </ul>
+            </li>
+            <li><strong>DevOps</strong>
+                <ul>
+                    <li>CI/CD Pipelines</li>
+                    <li>Jenkins and GitLab</li>
+                    <li>Docker and Kubernetes</li>
+                    <li>Infrastructure as Code (Terraform)</li>
+                    <li>Monitoring and Logging</li>
+                </ul>
+            </li>
+            <li><strong>Linux</strong>
+                <ul>
+                    <li>Basic Commands</li>
+                    <li>File Management</li>
+                    <li>User and Permission Management</li>
+                    <li>Shell Scripting</li>
+                    <li>System Monitoring and Maintenance</li>
+                </ul>
+            </li>
+            <li><strong>Power BI</strong>
+                <ul>
+                    <li>Data Modeling</li>
+                    <li>Creating Reports</li>
+                    <li>DAX Basics</li>
+                    <li>Sharing and Collaboration</li>
+                    <li>Integrating with Other Tools</li>
+                </ul>
+            </li>
+        </ul>
+        
+        <h3>Upcoming Features</h3>
+        <ul>
+            <li>Interactive Tutorials</li>
+            <li>Live Q&A Sessions</li>
+            <li>Interview Preparation</li>
+            <li>Project-Based Learning</li>
+            <li>YouTube Channel Launch</li>
+        </ul>
+        
+        <h3>Contact Us</h3>
+        <p>For any inquiries or feedback, please contact us at:</p>
         <p class="contact-info">
             <span class="icon-email">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="currentColor">

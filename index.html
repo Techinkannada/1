@@ -9,14 +9,14 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: url('https://www.transparenttextures.com/patterns/diagmonds-light.png'), #f5f5f5; /* Light grey background with tech pattern */
-            color: #333; /* Dark grey text color */
-            text-align: center;
+            background: #f5f5f5;
+            color: #333;
         }
         header {
             background-color: #333;
             color: #fff;
             padding: 20px 0;
+            text-align: center;
         }
         h1 {
             margin: 0;
@@ -24,20 +24,16 @@
         }
         section {
             padding: 20px;
-            text-align: left;
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             margin: 20px auto;
-            max-width: 800px; /* Center content and set max width */
+            max-width: 800px;
         }
         footer {
             background-color: #333;
             color: #fff;
             padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
             text-align: center;
         }
         .contact-info {
@@ -59,7 +55,7 @@
             margin-right: 5px;
         }
         ul {
-            list-style-type: none; /* Remove default bullet points */
+            list-style-type: none;
             padding-left: 0;
         }
         ul li::before {
@@ -67,84 +63,96 @@
             margin-right: 8px;
             color: green;
         }
+        .course-icon {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .bg-pattern {
+            background: url('https://www.transparenttextures.com/patterns/cubes.png');
+            padding: 40px;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Welcome to Tech Kannadiga</h1>
     </header>
-    <section>
-        <h2>About Us</h2>
-        <p>We are dedicated to providing comprehensive tech education in Kannada. Our aim is to make technology accessible to everyone by teaching in the local language.</p>
-        
-        <h3>Our Services</h3>
-        <ul>
-            <li><strong>AWS</strong>
-                <ul>
-                    <li>Introduction to AWS Cloud</li>
-                    <li>EC2 and S3 Basics</li>
-                    <li>Networking and VPC</li>
-                    <li>Database Services</li>
-                    <li>Security Best Practices</li>
-                </ul>
-            </li>
-            <li><strong>DevOps</strong>
-                <ul>
-                    <li>CI/CD Pipelines</li>
-                    <li>Jenkins and GitLab</li>
-                    <li>Docker and Kubernetes</li>
-                    <li>Infrastructure as Code (Terraform)</li>
-                    <li>Monitoring and Logging</li>
-                </ul>
-            </li>
-            <li><strong>Linux</strong>
-                <ul>
-                    <li>Basic Commands</li>
-                    <li>File Management</li>
-                    <li>User and Permission Management</li>
-                    <li>Shell Scripting</li>
-                    <li>System Monitoring and Maintenance</li>
-                </ul>
-            </li>
-            <li><strong>Power BI</strong>
-                <ul>
-                    <li>Data Modeling</li>
-                    <li>Creating Reports</li>
-                    <li>DAX Basics</li>
-                    <li>Sharing and Collaboration</li>
-                    <li>Integrating with Other Tools</li>
-                </ul>
-            </li>
-        </ul>
-        
-        <h3>Upcoming Features</h3>
-        <ul>
-            <li>Interactive Tutorials</li>
-            <li>Live Q&A Sessions</li>
-            <li>Interview Preparation</li>
-            <li>Project-Based Learning</li>
-            <li>YouTube Channel Launch</li>
-        </ul>
-        
-        <h3>Contact Us</h3>
-        <p>For any inquiries or feedback, please contact us at:</p>
-        <p class="contact-info">
-            <span class="icon-email">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 12.713l11.985-7.059c-.273-.323-.56-.635-.855-.935h-22.26c-.294.3-.581.612-.855.935l11.985 7.059zm0 2.287l-11.985-7.06v12.06h23.97v-12.06l-11.985 7.06z"/>
-                </svg>
-                techkannadiga983@gmail.com
-            </span>
-            <br>
-            <span class="icon-instagram">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.322 3.608 1.297.976.975 1.235 2.242 1.297 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.322 2.633-1.297 3.608-.975.976-2.242 1.235-3.608 1.297-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.322-3.608-1.297-.976-.975-1.235-2.242-1.297-3.608-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.062-1.366.322-2.633 1.297-3.608.975-.976 2.242-1.235 3.608-1.297 1.266-.058 1.646-.07 4.85-.07zm0-2.163c-3.259 0-3.667.013-4.947.072-1.405.064-2.678.35-3.741 1.413-1.063 1.063-1.349 2.336-1.413 3.741-.059 1.28-.072 1.688-.072 4.947s.013 3.667.072 4.947c.064 1.405.35 2.678 1.413 3.741 1.063 1.063 2.336 1.349 3.741 1.413 1.28.059 1.688.072 4.947.072s3.667-.013 4.947-.072c1.405-.064 2.678-.35 3.741-1.413 1.063-1.063 1.349-2.336 1.413-3.741.059-1.28.072-1.688.072-4.947s-.013-3.667-.072-4.947c-.064-1.405-.35-2.678-1.413-3.741-1.063-1.063-2.336-1.349-3.741-1.413-1.28-.059-1.688-.072-4.947-.072z"/>
-                    <path d="M12 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.441s.645 1.441 1.441 1.441 1.441-.645 1.441-1.441-.645-1.441-1.441-1.441z"/>
-                </svg>
-                <a href="https://instagram.com/techinkannada1923" target="_blank">@techinkannada1923</a>
-            </span>
-        </p>
-    </section>
+    <div class="bg-pattern">
+        <section>
+            <h2>About Us</h2>
+            <p>We are dedicated to providing comprehensive tech education in Kannada. Our aim is to make technology accessible to everyone by teaching in the local language.</p>
+            
+            <h3>Our Services</h3>
+            <ul>
+                <li><img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS Icon" class="course-icon"><strong>AWS</strong>
+                    <ul>
+                        <li>Introduction to AWS Cloud</li>
+                        <li>EC2 and S3 Basics</li>
+                        <li>Networking and VPC</li>
+                        <li>Database Services</li>
+                        <li>Security Best Practices</li>
+                    </ul>
+                </li>
+                <li><img src="https://img.icons8.com/color/48/000000/devops.png" alt="DevOps Icon" class="course-icon"><strong>DevOps</strong>
+                    <ul>
+                        <li>CI/CD Pipelines</li>
+                        <li>Jenkins and GitLab</li>
+                        <li>Docker and Kubernetes</li>
+                        <li>Infrastructure as Code (Terraform)</li>
+                        <li>Monitoring and Logging</li>
+                    </ul>
+                </li>
+                <li><img src="https://img.icons8.com/color/48/000000/linux.png" alt="Linux Icon" class="course-icon"><strong>Linux</strong>
+                    <ul>
+                        <li>Basic Commands</li>
+                        <li>File Management</li>
+                        <li>User and Permission Management</li>
+                        <li>Shell Scripting</li>
+                        <li>System Monitoring and Maintenance</li>
+                    </ul>
+                </li>
+                <li><img src="https://img.icons8.com/color/48/000000/power-bi.png" alt="Power BI Icon" class="course-icon"><strong>Power BI</strong>
+                    <ul>
+                        <li>Data Modeling</li>
+                        <li>Creating Reports</li>
+                        <li>DAX Basics</li>
+                        <li>Sharing and Collaboration</li>
+                        <li>Integrating with Other Tools</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <h3>Upcoming Features</h3>
+            <ul>
+                <li>Interactive Tutorials</li>
+                <li>Live Q&A Sessions</li>
+                <li>Interview Preparation</li>
+                <li>Project-Based Learning</li>
+                <li>YouTube Channel Launch</li>
+            </ul>
+            
+            <h3>Contact Us</h3>
+            <p>For any inquiries or feedback, please contact us at:</p>
+            <p class="contact-info">
+                <span class="icon-email">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 12.713l11.985-7.059c-.273-.323-.56-.635-.855-.935h-22.26c-.294.3-.581.612-.855.935l11.985 7.059zm0 2.287l-11.985-7.06v12.06h23.97v-12.06l-11.985 7.06z"/>
+                    </svg>
+                    techkannadiga983@gmail.com
+                </span>
+                <br>
+                <span class="icon-instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.322 3.608 1.297.976.975 1.235 2.242 1.297 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.322 2.633-1.297 3.608-.975.976-2.242 1.235-3.608 1.297-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.322-3.608-1.297-.976-.975-1.235-2.242-1.297-3.608-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.062-1.366.322-2.633 1.297-3.608.975-.976 2.242-1.235 3.608-1.297 1.266-.058 1.646-.07 4.85-.07zm0-2.163c-3.259 0-3.667.013-4.947.072-1.405.064-2.678.35-3.741 1.413-1.063 1.063-1.349 2.336-1.413 3.741-.059 1.28-.072 1.688-.072 4.947s.013 3.667.072 4.947c.064 1.405.35 2.678 1.413 3.741 1.063 1.063 2.336 1.349 3.741 1.413 1.28.059 1.688.072 4.947.072s3.667-.013 4.947-.072c1.405-.064 2.678-.35 3.741-1.413 1.063-1.063 1.349-2.336 1.413-3.741.059-1.28.072-1.688.072-4.947s-.013-3.667-.072-4.947c-.064-1.405-.35-2.678-1.413-3.741-1.063-1.063-2.336-1.349-3.741-1.413-1.28-.059-1.688-.072-4.947-.072z"/>
+                        <path d="M12 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.327c-2.299 0-4.166-1.867-4.166-4.166s1.867-4.166 4.166-4.166 4.166 1.867 4.166 4.166-1.867 4.166-4.166 4.166zm6.406-11.845c-.796 0-1.44.644-1.44 1.44s.644 1.44 1.44 1.44 1.44-.644 1.44-1.44-.644-1.44-1.44-1.44z"/>
+                    </svg>
+                    <a href="https://instagram.com/techinkannada1923" target="_blank">@techinkannada1923</a>
+                </span>
+            </p>
+        </section>
+    </div>
     <footer>
         <p>&copy; 2024 Tech Kannadiga</p>
     </footer>

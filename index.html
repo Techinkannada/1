@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Kannadiga</title>
+    <title>Tech in Kannada</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -58,11 +58,6 @@
             list-style-type: none;
             padding-left: 0;
         }
-        ul li::before {
-            content: '✔️';
-            margin-right: 8px;
-            color: green;
-        }
         .course-icon {
             width: 24px;
             height: 24px;
@@ -73,11 +68,23 @@
             background: url('https://www.transparenttextures.com/patterns/cubes.png');
             padding: 40px;
         }
+        .course-section {
+            margin-bottom: 20px;
+        }
+        .course-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .course-title img {
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Tech Kannadiga</h1>
+        <h1>Welcome to Tech in Kannada</h1>
     </header>
     <div class="bg-pattern">
         <section>
@@ -85,44 +92,54 @@
             <p>We are dedicated to providing comprehensive tech education in Kannada. Our aim is to make technology accessible to everyone by teaching in the local language.</p>
             
             <h3>Our Services</h3>
-            <ul>
-                <li><img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS Icon" class="course-icon"><strong>AWS</strong>
-                    <ul>
-                        <li>Introduction to AWS Cloud</li>
-                        <li>EC2 and S3 Basics</li>
-                        <li>Networking and VPC</li>
-                        <li>Database Services</li>
-                        <li>Security Best Practices</li>
-                    </ul>
-                </li>
-                <li><img src="https://img.icons8.com/color/48/000000/devops.png" alt="DevOps Icon" class="course-icon"><strong>DevOps</strong>
-                    <ul>
-                        <li>CI/CD Pipelines</li>
-                        <li>Jenkins and GitLab</li>
-                        <li>Docker and Kubernetes</li>
-                        <li>Infrastructure as Code (Terraform)</li>
-                        <li>Monitoring and Logging</li>
-                    </ul>
-                </li>
-                <li><img src="https://img.icons8.com/color/48/000000/linux.png" alt="Linux Icon" class="course-icon"><strong>Linux</strong>
-                    <ul>
-                        <li>Basic Commands</li>
-                        <li>File Management</li>
-                        <li>User and Permission Management</li>
-                        <li>Shell Scripting</li>
-                        <li>System Monitoring and Maintenance</li>
-                    </ul>
-                </li>
-                <li><img src="https://img.icons8.com/color/48/000000/power-bi.png" alt="Power BI Icon" class="course-icon"><strong>Power BI</strong>
-                    <ul>
-                        <li>Data Modeling</li>
-                        <li>Creating Reports</li>
-                        <li>DAX Basics</li>
-                        <li>Sharing and Collaboration</li>
-                        <li>Integrating with Other Tools</li>
-                    </ul>
-                </li>
-            </ul>
+            <div class="course-section">
+                <div class="course-title">
+                    <img src="https://img.icons8.com/color/48/000000/linux.png" alt="Linux Icon" class="course-icon"><strong>Linux</strong>
+                </div>
+                <ul>
+                    <li>Basic Commands</li>
+                    <li>File Management</li>
+                    <li>User and Permission Management</li>
+                    <li>Shell Scripting</li>
+                    <li>System Monitoring and Maintenance</li>
+                </ul>
+            </div>
+            <div class="course-section">
+                <div class="course-title">
+                    <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS Icon" class="course-icon"><strong>AWS</strong>
+                </div>
+                <ul>
+                    <li>Introduction to AWS Cloud</li>
+                    <li>EC2 and S3 Basics</li>
+                    <li>Networking and VPC</li>
+                    <li>Database Services</li>
+                    <li>Security Best Practices</li>
+                </ul>
+            </div>
+            <div class="course-section">
+                <div class="course-title">
+                    <img src="https://img.icons8.com/color/48/000000/devops.png" alt="DevOps Icon" class="course-icon"><strong>DevOps</strong>
+                </div>
+                <ul>
+                    <li>CI/CD Pipelines</li>
+                    <li>Jenkins and GitLab</li>
+                    <li>Docker and Kubernetes</li>
+                    <li>Infrastructure as Code (Terraform)</li>
+                    <li>Monitoring and Logging</li>
+                </ul>
+            </div>
+            <div class="course-section">
+                <div class="course-title">
+                    <img src="https://img.icons8.com/color/48/000000/power-bi.png" alt="Power BI Icon" class="course-icon"><strong>Power BI</strong>
+                </div>
+                <ul>
+                    <li>Data Modeling</li>
+                    <li>Creating Reports</li>
+                    <li>DAX Basics</li>
+                    <li>Sharing and Collaboration</li>
+                    <li>Integrating with Other Tools</li>
+                </ul>
+            </div>
             
             <h3>Upcoming Features</h3>
             <ul>
@@ -146,7 +163,7 @@
                 <span class="icon-instagram">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.322 3.608 1.297.976.975 1.235 2.242 1.297 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.322 2.633-1.297 3.608-.975.976-2.242 1.235-3.608 1.297-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.322-3.608-1.297-.976-.975-1.235-2.242-1.297-3.608-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.062-1.366.322-2.633 1.297-3.608.975-.976 2.242-1.235 3.608-1.297 1.266-.058 1.646-.07 4.85-.07zm0-2.163c-3.259 0-3.667.013-4.947.072-1.405.064-2.678.35-3.741 1.413-1.063 1.063-1.349 2.336-1.413 3.741-.059 1.28-.072 1.688-.072 4.947s.013 3.667.072 4.947c.064 1.405.35 2.678 1.413 3.741 1.063 1.063 2.336 1.349 3.741 1.413 1.28.059 1.688.072 4.947.072s3.667-.013 4.947-.072c1.405-.064 2.678-.35 3.741-1.413 1.063-1.063 1.349-2.336 1.413-3.741.059-1.28.072-1.688.072-4.947s-.013-3.667-.072-4.947c-.064-1.405-.35-2.678-1.413-3.741-1.063-1.063-2.336-1.349-3.741-1.413-1.28-.059-1.688-.072-4.947-.072z"/>
-                        <path d="M12 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.327c-2.299 0-4.166-1.867-4.166-4.166s1.867-4.166 4.166-4.166 4.166 1.867 4.166 4.166-1.867 4.166-4.166 4.166zm6.406-11.845c-.796 0-1.44.644-1.44 1.44s.644 1.44 1.44 1.44 1.44-.644 1.44-1.44-.644-1.44-1.44-1.44z"/>
+                        <path d="M12 5.838c-3.403 0-6.162 2.758-6.162 6.162s2.758 6.162 6.162 6.162 6.162-2.758 6.162-6.162-2.758-6.162-6.162-6.162zm0 10.327c-2.299 0-4.166-1.867-4.166-4.166s1.867-4.166 4.166-4.166 4.166 1.867 4.166 4.166-1.867 4.166-4.166 4.166zm6.406-11.845c-.796 0-1.44.644-1.44 1.44s.644 1.44 1.44 1.44 1.44-.644 1.44-1.44-.644-1.44-1.44-1.44z"/>
                     </svg>
                     <a href="https://instagram.com/techinkannada1923" target="_blank">@techinkannada1923</a>
                 </span>
@@ -154,7 +171,7 @@
         </section>
     </div>
     <footer>
-        <p>&copy; 2024 Tech Kannadiga</p>
+        <p>&copy; 2024 Tech in Kannada</p>
     </footer>
 </body>
 </html>
